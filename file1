@@ -1,0 +1,2 @@
+alter table "SKOILE"."STUDENT_ACADEMICS" add constraint UK_SID_CSID_STID_ses_id  unique("STID","SES_ID","CSID","SID") 
+ENABLE NOVALIDATE
